@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FetchAPI</title>
+    <link rel="stylesheet" href="assets/styles/app.css">
+    <script src="assets/scripts/script.js" defer></script>
+  </head> 
+  <body>
+    <div class = 'wrapper'>
+      <table id='myTable'>
+        <thead>
+          <tr class='header'>
+            <th>
+              ID
+             </br>
+            <input id='iden' onkeyup="filter(0, 'iden')" ></input>
+            </th>
+            <th>Name
+              </br>
+            <input id='name' onkeyup="filter(1, 'name')"></input></th>
+            <th>First brewed
+    </br>
+    <input id='date' onkeyup="filter(2, 'date')"></input>
+    </tH>
+            <th>Volume
+    </br>
+    <input id='vol' onkeyup="filter(3, 'vol')"></input>
+    </th>
+            <th>PH
+    </br>
+    <input id='ph' onkeyup="filter(4, 'ph')"></input>
+    </th>
+          <tbody>
+        </tbody>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </body>
+</html>
